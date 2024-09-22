@@ -1,0 +1,30 @@
+{
+	"name": "CuttingChai",
+	"scopeName": "source.chai",
+	"patterns": [
+	  {
+		"name": "comment.line.double-slash.chai",
+		"match": "//.*$"
+	  },
+	  {
+		"name": "constant.numeric.chai",
+		"match": "\\b\\d+\\b"
+	  },
+	  {
+		"name": "string.quoted.double.chai",
+		"begin": "\"",
+		"end": "\"",
+		"patterns": [
+		  {
+			"name": "constant.character.escape.chai",
+			"match": "\\\\."
+		  }
+		]
+	  },
+	  {
+		"name": "keyword.control.chai",
+		"match": "\\b(sahichai|galatchai|GOD|chaiprint|number|bool|chaistring|array)\\b"
+	  }
+	]
+  }
+  

@@ -1,0 +1,33 @@
+{
+  "name": "cuttingchai",
+  "displayName": "CuttingChai☕",
+  "description": "Cuttingchai is a simple programming language with an indian flavour.",
+  "version": "1.0.0",
+  "publisher": "cuttingchai",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "icon": "assets/cuttingchai.jpg", 
+  "contributes": {
+        "snippets": [
+          {
+            "language": "chai",
+            "path": "./snippets/chai.json"
+          }
+        ],  
+    "languages": [{
+      "id": "cuttingchai",
+      "aliases": ["cuttingchai", "cuttingchai"],
+      "extensions": [".chai"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "cuttingchai",
+      "scopeName": "source.chai",
+      "path": "./syntaxes/cuttingchai.tmLanguage.json"
+    }]
+  }
+}

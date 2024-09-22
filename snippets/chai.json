@@ -1,0 +1,30 @@
+{
+    "Number Declaration": {
+      "prefix": "number",
+      "body": [
+        "number ${1:varName} = ${2:value};",
+        "chaiprint ${1:varName};"
+      ],
+      "description": "Declare a number variable and print it."
+    },
+    "Boolean Declaration": {
+      "prefix": "bool",
+      "body": [
+        "bool ${1:varName} = ${2:true};",
+        "chaiprint ${1:varName};"
+      ],
+      "description": "Declare a boolean variable and print it."
+    },
+    "If Else Statement": {
+      "prefix": "ifelse",
+      "body": [
+        "sahichai (${1:condition}) {",
+        "\t${2:// code}",
+        "} galatchai {",
+        "\t${3:// else code}",
+        "}"
+      ],
+      "description": "If-Else statement in CuttingChai."
+    }
+  }
+  
